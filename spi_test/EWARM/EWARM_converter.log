@@ -1,0 +1,7 @@
+Project: EWARM
+Converter: IARProjectParser
+Date: 20180407
+
+Project needs GCC compatible startup code and linker script
+spi_test: FPU set to default FPU for device: FPv4-SP-D16.
+spi_test: FPU set to default FPU for device: FPv4-SP-D16.
