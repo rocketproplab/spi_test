@@ -134,6 +134,7 @@ int main(void)
   {
 
   /* USER CODE END WHILE */
+	strncpy(txBuf, "Hello World", TX_BUF_SIZE);
     MX_USB_HOST_Process();
     SPI1_send(txBuf, TX_BUF_SIZE, 30);
     SPI2_receive(rxBuf, RX_BUF_SIZE, 30);
